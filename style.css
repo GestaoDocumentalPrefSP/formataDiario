@@ -1,7 +1,5 @@
-.container {
-    column-count: 3;
-    column-gap: 20px;
-    column-rule: 2px solid #434444;
+html{
+    font-size: 60,5%;
 }
 
 header img {
@@ -36,7 +34,39 @@ header img {
     padding-left: 50px;
 }
 
+.container {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 2px solid #434444;
+}
+
+.fontReduzida {
+    font-size: 1.2rem;
+}
+
 h1 {
+    white-space: nowrap;
     border-top: #d5d3d3 solid 10px;
     margin-right: 70%;
 }
+
+h2 {
+    color: #6c6e6e;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    white-space: wrap;
+    overflow: hidden;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    white-space: wrap;
+    font-size: 14px;
+}
+
