@@ -69,4 +69,11 @@ a {
     white-space: wrap;
     font-size: 14px;
 }
+table td {
+    border: 1px #000 solid;
+    padding: 0%;
+}
 
+td p {
+   text-align:center; 
+}
